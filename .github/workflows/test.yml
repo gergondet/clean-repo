@@ -1,0 +1,10 @@
+name: test
+on: push
+
+jobs:
+  Ubuntu_18_04:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Show me env
+        run: |
+          env
